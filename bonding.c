@@ -21,7 +21,7 @@ struct global_info {
 };
 
 struct thread_info {
-  pthread_cond_t *cond;   // conditino variable to be signal when a thread should call Bond()
+  pthread_cond_t *cond;   // condition variable to be signal when a thread should call Bond()
   int tid;                // thread id
   int h1;                 // thread id of the first hydrogen atom
   int h2;                 // thread id of the second hydrogen atom
